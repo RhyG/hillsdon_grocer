@@ -187,13 +187,13 @@ footer {
         text-align: right;
 
         #top {
-            margin-bottom: 0.8em;
+            margin-bottom: 0.9em;
             width: 100%;
             
             a {
                 text-decoration: none;
                 color: $font_color;
-                margin-left: 4em;
+                margin-left: 5em;
 
                 &:hover {
                     color: #fff;
@@ -207,10 +207,11 @@ footer {
             
 
             p {
+                font-size: 0.9em;
                 font-weight: 100;
 
                 span {
-                    margin-left: 4em;
+                    margin-left: 2em;
                 }
             }
 
@@ -240,6 +241,10 @@ footer {
                 margin-bottom: 1.3em;
             }
         }
+    }
+
+    #visit {
+        margin-top: 5em;
     }
 
 }

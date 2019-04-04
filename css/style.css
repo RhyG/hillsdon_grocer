@@ -232,14 +232,14 @@ footer #footer-contact {
 }
 
 footer #footer-contact #top {
-  margin-bottom: 0.8em;
+  margin-bottom: 0.9em;
   width: 100%;
 }
 
 footer #footer-contact #top a {
   text-decoration: none;
   color: #333333;
-  margin-left: 4em;
+  margin-left: 5em;
 }
 
 footer #footer-contact #top a:hover {
@@ -252,11 +252,12 @@ footer #footer-contact #bottom {
 }
 
 footer #footer-contact #bottom p {
+  font-size: 0.9em;
   font-weight: 100;
 }
 
 footer #footer-contact #bottom p span {
-  margin-left: 4em;
+  margin-left: 2em;
 }
 
 footer #footer-contact #bottom a {
@@ -280,6 +281,9 @@ footer #footer-contact #bottom a {
   }
   #range ul li {
     margin-bottom: 1.3em;
+  }
+  #visit {
+    margin-top: 5em;
   }
 }
 
