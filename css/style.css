@@ -17,11 +17,12 @@ body {
 
 html h3,
 body h3 {
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 2.2rem;
+  font-weight: 500;
   width: 100%;
   margin-bottom: 2em;
   text-align: center;
+  color: #333333;
 }
 
 .page {
@@ -35,13 +36,9 @@ header {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -49,8 +46,10 @@ header {
 }
 
 header #logo {
+  text-align: center;
   margin-top: 2em;
   height: 8em;
+  width: 100%;
 }
 
 header #logo img {
@@ -70,8 +69,8 @@ header .navigation {
 }
 
 header .navigation a {
-  color: #333333;
   text-decoration: none;
+  color: #333333;
 }
 
 header .navigation a:hover {
@@ -80,10 +79,10 @@ header .navigation a:hover {
 }
 
 header .store-image {
-  height: 25em;
-  margin-top: 4em;
+  height: 30em;
+  margin-top: 2em;
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 header .store-image img {
@@ -97,7 +96,7 @@ header .store-image img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 #range p {
@@ -165,7 +164,7 @@ header .store-image img {
 #visit #address iframe {
   margin-top: 2em;
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
 #visit #contact {
@@ -239,7 +238,6 @@ footer #footer-contact #top {
 footer #footer-contact #top a {
   text-decoration: none;
   color: #333333;
-  margin-left: 5em;
 }
 
 footer #footer-contact #top a:hover {
@@ -285,6 +283,9 @@ footer #footer-contact #bottom a {
   #visit {
     margin-top: 5em;
   }
+  footer #footer-contact #top a {
+    margin-left: 5em;
+  }
 }
 
 /* Tablet styles */
@@ -310,6 +311,7 @@ footer #footer-contact #bottom a {
   #visit h3,
   footer h3 {
     text-align: left;
+    margin-bottom: 1em;
   }
   header #logo {
     width: 100%;
@@ -342,10 +344,7 @@ footer #footer-contact #bottom a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  #visit #address {
-    width: 1005;
-  }
-  #visit #contact {
+  #visit #address, #visit #contact {
     width: 100%;
   }
   #visit h3 {
@@ -359,6 +358,10 @@ footer #footer-contact #bottom a {
   }
   #visit #get-in-touch {
     margin-top: 1em;
+  }
+  footer #footer-contact {
+    width: 100%;
+    text-align: center;
   }
   footer .footer-logo {
     display: none;
