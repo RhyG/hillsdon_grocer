@@ -13,11 +13,11 @@ $font_color: #333333;
 }
 
 header,
-    #range,
-    #visit,
-    footer {
-        padding: 1em;
-    }
+#range,
+#visit,
+footer {
+    padding: 1em;
+}
 
 html,
 body {
@@ -96,7 +96,7 @@ header {
         width: 1180px;
         margin: auto;
         @include display-space-between;
-}
+    }
 
     h4 {
         font-size: 1.5em;
@@ -255,6 +255,18 @@ footer {
         }
     }
 
+    #visit {
+
+        #address,
+        #contact {
+            width: 50%;
+        }
+
+        iframe {
+            display: none;
+        }
+    }
+
 }
 
 /* Mobile styles */
@@ -310,7 +322,8 @@ footer {
         padding-bottom: 5em;
         flex-wrap: wrap;
 
-        #address, #contact {
+        #address,
+        #contact {
             width: 100%;
         }
 

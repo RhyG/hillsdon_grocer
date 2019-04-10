@@ -322,6 +322,13 @@ footer #footer-contact #bottom a {
   #range ul {
     font-size: 0.8em;
   }
+  #visit #address,
+  #visit #contact {
+    width: 50%;
+  }
+  #visit iframe {
+    display: none;
+  }
 }
 
 /* Mobile styles */
@@ -373,7 +380,8 @@ footer #footer-contact #bottom a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  #visit #address, #visit #contact {
+  #visit #address,
+  #visit #contact {
     width: 100%;
   }
   #visit h3 {
