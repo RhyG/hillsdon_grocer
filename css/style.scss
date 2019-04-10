@@ -38,7 +38,7 @@ header {
     @include display-default;
     justify-content: center;
     align-items: center;
-    min-height: 20vh;
+    min-height: 15vh;
 
     #logo {
         text-align: center;
@@ -283,7 +283,7 @@ footer {
         .navigation {
             width: 100%;
             font-size: 0.8em;
-            margin: 0;
+            margin: 3em 0;
         }
 
         .store-image {
@@ -293,6 +293,7 @@ footer {
 
     #range {
         justify-content: space-between;
+        margin-top: 3em;
 
         p {
             margin-bottom: 2em;
