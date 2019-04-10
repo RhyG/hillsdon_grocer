@@ -9,6 +9,13 @@
   line-height: 1.4em;
 }
 
+header,
+#range,
+#visit,
+footer {
+  padding: 1em;
+}
+
 html,
 body {
   height: 100%;
@@ -17,8 +24,8 @@ body {
 
 html h3,
 body h3 {
-  font-size: 2.2rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 400;
   width: 100%;
   margin-bottom: 2em;
   text-align: center;
@@ -101,9 +108,9 @@ header .store-image img {
 
 #range p {
   width: 100%;
-  line-height: 1.7em;
+  line-height: 1.9em;
   font-size: 1.2em;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 #range #range-1,
@@ -113,7 +120,7 @@ header .store-image img {
 
 #range #range-1 li,
 #range #range-2 li {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.2em;
 }
 
@@ -147,6 +154,7 @@ header .store-image img {
 #visit h4 {
   font-size: 1.5em;
   font-weight: 400;
+  color: #333333;
   margin-bottom: 0.2em;
 }
 
@@ -154,7 +162,7 @@ header .store-image img {
 #visit a {
   margin-bottom: 1em;
   font-size: 1.2em;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 #visit #address {
@@ -295,6 +303,24 @@ footer #footer-contact #bottom a {
   #visit,
   footer {
     padding: 1em;
+  }
+  #range {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #range h3 {
+    width: 100%;
+  }
+  #range p {
+    width: 50%;
+    font-weight: 300;
+  }
+  #range li {
+    margin-bottom: 1.2em;
+  }
+  #range ul {
+    font-size: 0.8em;
   }
 }
 

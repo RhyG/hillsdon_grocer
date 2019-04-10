@@ -12,6 +12,13 @@ $font_color: #333333;
     line-height: 1.4em;
 }
 
+header,
+    #range,
+    #visit,
+    footer {
+        padding: 1em;
+    }
+
 html,
 body {
     height: 100%;
@@ -63,9 +70,9 @@ header {
 
     p {
         width: 100%;
-        line-height: 1.7em;
+        line-height: 1.9em;
         font-size: 1.2em;
-        font-weight: 200;
+        font-weight: 300;
     }
 
     #range-1,
@@ -73,7 +80,7 @@ header {
         list-style: none;
 
         li {
-            font-weight: 200;
+            font-weight: 300;
             font-size: 1.2em;
         }
     }
@@ -94,6 +101,7 @@ header {
     h4 {
         font-size: 1.5em;
         font-weight: 400;
+        color: $font_color;
         margin-bottom: 0.2em;
     }
 
@@ -101,7 +109,7 @@ header {
     a {
         margin-bottom: 1em;
         font-size: 1.2em;
-        font-weight: 200;
+        font-weight: 300;
     }
 
     #address {
@@ -224,6 +232,27 @@ footer {
     #visit,
     footer {
         padding: 1em;
+    }
+
+    #range {
+        justify-content: space-between;
+
+        h3 {
+            width: 100%;
+        }
+
+        p {
+            width: 50%;
+            font-weight: 300;
+        }
+
+        li {
+            margin-bottom: 1.2em;
+        }
+
+        ul {
+            font-size: 0.8em;
+        }
     }
 
 }
