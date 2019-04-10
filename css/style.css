@@ -346,9 +346,12 @@ footer #footer-contact #bottom a {
     margin-bottom: 2em;
   }
   header .navigation {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     width: 100%;
     font-size: 0.8em;
-    margin: 3em 0;
+    margin: 2em 0;
   }
   header .store-image {
     height: 15em;
