@@ -277,6 +277,17 @@ footer {
         }
     }
 
+    footer {
+        #footer-contact {
+            width: 100%;
+            text-align: center;
+        }
+
+        .footer-logo {
+            display: none;
+        }
+    }
+
 }
 
 /* Mobile styles */

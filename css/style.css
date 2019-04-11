@@ -336,6 +336,13 @@ footer #footer-contact #bottom a {
   #visit iframe {
     display: none;
   }
+  footer #footer-contact {
+    width: 100%;
+    text-align: center;
+  }
+  footer .footer-logo {
+    display: none;
+  }
 }
 
 /* Mobile styles */
