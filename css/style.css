@@ -124,6 +124,26 @@ header .store-image img {
   font-size: 1.2em;
 }
 
+#carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5em;
+}
+
+#carousel img {
+  width: 16em;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
 #visit {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -133,7 +153,8 @@ header .store-image img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #FDFBF1;
+  background-color: #333333;
+  color: white;
   width: 100%;
   padding: 5em;
 }
@@ -151,10 +172,14 @@ header .store-image img {
           justify-content: space-between;
 }
 
+#visit h3 {
+  color: white;
+}
+
 #visit h4 {
   font-size: 1.5em;
   font-weight: 400;
-  color: #333333;
+  color: white;
   margin-bottom: 0.2em;
 }
 
@@ -163,6 +188,7 @@ header .store-image img {
   margin-bottom: 1em;
   font-size: 1.2em;
   font-weight: 300;
+  color: white;
 }
 
 #visit #address {
@@ -183,15 +209,15 @@ header .store-image img {
   height: 1.5em;
   width: auto;
   margin-right: 1em;
-  -webkit-filter: opacity(70%);
-          filter: opacity(70%);
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
   -webkit-transition: ease-in-out 0.1s;
   transition: ease-in-out 0.1s;
 }
 
 #visit #contact .social-icon:hover {
-  -webkit-filter: opacity(100%);
-          filter: opacity(100%);
+  -webkit-filter: invert(80%);
+          filter: invert(80%);
 }
 
 #visit #get-in-touch {
@@ -329,6 +355,12 @@ footer #footer-contact #bottom a {
   #range ul {
     font-size: 0.8em;
   }
+  #carousel {
+    margin-bottom: 5em;
+  }
+  #carousel img {
+    width: 10em;
+  }
   #visit #address,
   #visit #contact {
     width: 50%;
@@ -388,6 +420,9 @@ footer #footer-contact #bottom a {
   #range li {
     margin: 1.2em 0;
   }
+  #carousel {
+    display: none;
+  }
   #visit {
     margin-top: 2em;
     padding-bottom: 5em;
@@ -415,6 +450,16 @@ footer #footer-contact #bottom a {
     text-align: center;
   }
   footer .footer-logo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #carousel {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #carousel img:last-child {
     display: none;
   }
 }
