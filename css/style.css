@@ -361,6 +361,9 @@ footer #footer-contact #bottom a {
   #carousel img {
     width: 10em;
   }
+  #visit {
+    padding: 3em 0;
+  }
   #visit #address,
   #visit #contact {
     width: 50%;

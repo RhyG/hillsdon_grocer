@@ -289,6 +289,7 @@ footer {
     }
 
     #visit {
+        padding: 3em 0;
 
         #address,
         #contact {
@@ -412,11 +413,5 @@ footer {
         img {
             flex-grow: 1;
         }
-        // justify-content: space-around;
-        // img:last-child {
-        //     display: none;
-        // }
     }
-
-
 }
