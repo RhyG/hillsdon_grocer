@@ -202,6 +202,10 @@ header .store-image img {
   color: #333333;
 }
 
+#instafeed {
+  border: 2px solid red;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;

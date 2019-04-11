@@ -146,6 +146,10 @@ header {
     }
 }
 
+#instafeed {
+    border: 2px solid red;
+}
+
 footer {
     @include display-default;
     justify-content: space-between;
