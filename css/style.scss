@@ -282,7 +282,7 @@ footer {
     }
 
     #carousel {
-        margin-bottom: 5em;
+        margin-bottom: 0em;
         img {
             width: 10em;
         }
@@ -407,10 +407,15 @@ footer {
 @media only screen and (max-width: 1024px) {
 
     #carousel {
-        justify-content: space-around;
-        img:last-child {
-            display: none;
+        flex-basis: auto;
+        flex-wrap: nowrap;
+        img {
+            flex-grow: 1;
         }
+        // justify-content: space-around;
+        // img:last-child {
+        //     display: none;
+        // }
     }
 
 

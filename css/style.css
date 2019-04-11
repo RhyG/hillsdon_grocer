@@ -356,7 +356,7 @@ footer #footer-contact #bottom a {
     font-size: 0.8em;
   }
   #carousel {
-    margin-bottom: 5em;
+    margin-bottom: 0em;
   }
   #carousel img {
     width: 10em;
@@ -456,11 +456,15 @@ footer #footer-contact #bottom a {
 
 @media only screen and (max-width: 1024px) {
   #carousel {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
-  #carousel img:last-child {
-    display: none;
+  #carousel img {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
   }
 }
 /*# sourceMappingURL=style.css.map */
