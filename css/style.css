@@ -133,6 +133,9 @@ header .store-image img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 5em;
 }
 
@@ -226,10 +229,6 @@ header .store-image img {
 
 #visit a {
   color: #333333;
-}
-
-#instafeed {
-  border: 2px solid red;
 }
 
 footer {

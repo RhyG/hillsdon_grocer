@@ -88,6 +88,7 @@ header {
 
 #carousel {
     @include display-space-between;
+    align-items: center;
     margin-top: 5em;
     img {
         width: 16em;
@@ -160,10 +161,6 @@ header {
     a {
         color: $font_color;
     }
-}
-
-#instafeed {
-    border: 2px solid red;
 }
 
 footer {
