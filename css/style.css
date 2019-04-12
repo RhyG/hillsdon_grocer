@@ -423,10 +423,18 @@ footer #footer-contact #bottom a {
     margin: 1.2em 0;
   }
   #carousel {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 2em;
+  }
+  #carousel img {
+    width: 50%;
   }
   #visit {
-    margin-top: 2em;
+    margin-top: 0em;
     padding-bottom: 5em;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -456,7 +464,7 @@ footer #footer-contact #bottom a {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
   #carousel {
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
