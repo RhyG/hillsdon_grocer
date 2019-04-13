@@ -137,6 +137,7 @@ header .store-image img {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 #carousel img {

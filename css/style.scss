@@ -90,6 +90,7 @@ header {
     @include display-space-between;
     align-items: center;
     margin-top: 5em;
+    margin-bottom: 5em;
     img {
         width: 16em;
         flex-shrink: 1;
