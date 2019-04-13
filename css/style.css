@@ -137,7 +137,6 @@ header .store-image img {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 5em;
-  margin-bottom: 5em;
 }
 
 #carousel img {
@@ -317,6 +316,9 @@ footer #footer-contact #bottom a {
   }
   #range ul li {
     margin-bottom: 1.3em;
+  }
+  #carousel {
+    margin-bottom: 5em;
   }
   #visit {
     margin-top: 5em;
